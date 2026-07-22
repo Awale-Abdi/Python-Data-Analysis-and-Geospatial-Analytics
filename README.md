@@ -1,4 +1,4 @@
-<h1 align="center">Python Data Analysis & Geospatial Crime Analytics (843K+ Records)</h1>
+<h1 align="center">Python Data Analysis & Geospatial Analytics (843K+ Records)</h1>
 
 This repository showcases an end-to-end **Python data analysis and geospatial analytics project** built using over **843,000 Los Angeles crime records**. The project follows a structured analytical workflow from raw data ingestion and preprocessing through statistical analysis, geospatial visualization, and insight generation.
 
