@@ -281,7 +281,7 @@ Contains the complete Jupyter Notebook implementing the full analytical workflow
 - Folium
 - SciPy
 
-## Repository Setup
+### Repository Setup
 
 Clone the repository:
 
