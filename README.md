@@ -8,7 +8,7 @@ Using **Python**, **pandas**, **NumPy**, **Matplotlib**, **Plotly**, **Folium**,
 
 The project concludes with an interactive Jupyter Notebook presenting statistical analyses, geospatial heatmaps, and visual dashboards that communicate key public safety insights through clear, data-driven storytelling.
 
-# 🎯 Project Goals
+## 🎯 Project Goals
 
 The project was designed to analyze large-scale public crime data using reproducible Python workflows to identify meaningful temporal, demographic, and geographic crime patterns.
 
@@ -23,9 +23,9 @@ The primary objectives were to:
 - Validate analytical findings using statistical hypothesis testing.
 - Communicate insights through clear visualizations and data storytelling.
 
-# 🏗️ Solution Architecture
+## 🏗️ Solution Architecture
 
-### Workflow
+#### Workflow
 
 ```text
 Raw LAPD Crime Dataset
@@ -45,14 +45,14 @@ Interactive Visualization
 Analytical Insights
 ```
 
-### Data
+#### Data
 
 - **Primary Dataset:** Los Angeles Crime Data (2020–Present)
 - **Source:** Los Angeles Open Data Portal
 - **Volume:** 843,000+ crime reports (~180 MB)
 - **Focus:** Crime trends, demographics, geography, weapons, and temporal patterns
 
-### Data Preparation
+#### Data Preparation
 
 Prepared the dataset by:
 
@@ -62,7 +62,7 @@ Prepared the dataset by:
 - Converting and validating date fields.
 - Preparing reproducible analytical datasets.
 
-### Feature Engineering
+#### Feature Engineering
 
 Created analytical variables including:
 
@@ -76,7 +76,7 @@ Created analytical variables including:
 
 These engineered features supported downstream statistical and geospatial analyses.
 
-### Exploratory Data Analysis (EDA)
+#### Exploratory Data Analysis (EDA)
 
 Conducted exploratory analyses to investigate:
 
@@ -87,7 +87,7 @@ Conducted exploratory analyses to investigate:
 - Weapon involvement.
 - Geographic crime distribution.
 
-### Statistical Analysis
+#### Statistical Analysis
 
 Applied statistical techniques to evaluate:
 
@@ -96,7 +96,7 @@ Applied statistical techniques to evaluate:
 - Regional crime differences.
 - Pattern consistency across the study period.
 
-### Geospatial Analytics
+#### Geospatial Analytics
 
 Developed interactive geographic visualizations using **Folium**, including:
 
@@ -105,7 +105,7 @@ Developed interactive geographic visualizations using **Folium**, including:
 - Geographic hotspot identification.
 - Interactive map exploration.
 
-### Data Visualization
+#### Data Visualization
 
 Developed analytical visualizations using **Matplotlib**, **Plotly**, and **Seaborn**, including:
 
@@ -115,49 +115,49 @@ Developed analytical visualizations using **Matplotlib**, **Plotly**, and **Seab
 - Heatmaps.
 - Interactive geographic visualizations.
 
-# 📊 Analytical Insights
+## 📊 Analytical Insights
 
 Analysis of over **843,000 Los Angeles crime reports** revealed several notable temporal, demographic, and geographic crime patterns.
 
-### Temporal Crime Trends
+#### Temporal Crime Trends
 
 - Crime activity declined during the initial COVID-19 pandemic period before increasing in subsequent years.
 - Crime levels consistently peaked during the summer months.
 - Friday and Saturday recorded the highest average crime volumes.
 - Seasonal and weekly patterns remained relatively consistent throughout the study period.
 
-### Geographic Distribution
+#### Geographic Distribution
 
 - Crime was concentrated within major commercial and densely populated areas.
 - Downtown Los Angeles, Hollywood, and South Los Angeles exhibited the highest crime densities.
 - Interactive heatmaps highlighted persistent geographic hotspots across the city.
 
-### Crime Characteristics
+#### Crime Characteristics
 
 - Battery, burglary, and vandalism were among the most frequently reported offenses.
 - Weapon involvement varied substantially across crime categories.
 - Property and violent crimes displayed distinct temporal and spatial patterns.
 
-### Victim Demographics
+#### Victim Demographics
 
 - Individuals between **20 and 50 years of age** represented the largest proportion of victims.
 - Crime distributions differed across age groups and sex.
 - Demographic analysis identified several population groups with consistently higher victimization rates.
 
-### Statistical Findings
+#### Statistical Findings
 
 - Statistical testing supported significant variation in crime activity across days of the week.
 - Geographic clustering indicated that crime was not randomly distributed throughout Los Angeles.
 - Multiple analytical methods consistently identified the same high-risk regions and temporal patterns.
 
-# ⚠️ Project Limitations
+## ⚠️ Project Limitations
 
 - Analysis is limited to publicly available LAPD crime data.
 - Reported crimes may underrepresent actual crime occurrence.
 - Missing demographic and geographic information required selective record exclusion.
 - Findings represent historical patterns and should not be interpreted as predictive crime forecasts.
 
-# 📈 Analytical Recommendations
+## 📈 Analytical Recommendations
 
 Based on the analyses, several recommendations emerge:
 
@@ -167,13 +167,13 @@ Based on the analyses, several recommendations emerge:
 - Continuously monitor temporal crime trends to identify emerging patterns.
 - Expand future analyses by incorporating socioeconomic, weather, and census data to improve explanatory insights.
 
-# 🛠️ Technical Skills Demonstrated
+## 🛠️ Technical Skills Demonstrated
 
-### Programming
+#### Programming
 
 - Python
 
-### Data Analysis
+#### Data Analysis
 
 - Exploratory Data Analysis (EDA)
 - Statistical Analysis
@@ -184,7 +184,7 @@ Based on the analyses, several recommendations emerge:
 - Geospatial Analysis
 - Public Sector Analytics
 
-### Data Preparation
+#### Data Preparation
 
 - Data Cleaning
 - Data Preprocessing
@@ -193,7 +193,7 @@ Based on the analyses, several recommendations emerge:
 - Data Validation
 - Large-Scale Dataset Processing
 
-### Data Visualization
+#### Data Visualization
 
 - Interactive Mapping
 - Geospatial Heatmaps
@@ -203,12 +203,12 @@ Based on the analyses, several recommendations emerge:
 - Dashboard Development
 - Data Storytelling
 
-### Software
+#### Software
 
 - Jupyter Notebook
 - AWS S3
 
-### Libraries
+#### Libraries
 
 - pandas
 - NumPy
@@ -218,7 +218,7 @@ Based on the analyses, several recommendations emerge:
 - Folium
 - SciPy
 
-# 💡 What This Project Demonstrates
+## 💡 What This Project Demonstrates
 
 This project demonstrates the ability to design and execute an end-to-end Python data analytics workflow using a large real-world public dataset.
 
@@ -234,7 +234,7 @@ Key competencies demonstrated include:
 
 Although centered on Los Angeles crime data, the analytical workflow and technologies demonstrated are broadly transferable to business intelligence, data science, public sector analytics, finance, healthcare, operations, marketing, and other data-driven industries.
 
-# 📁 Repository Structure
+## 📁 Repository Structure
 
 ```text
 Python-Data-Analysis-and-Geospatial-Crime-Analytics/
@@ -267,9 +267,9 @@ Contains the complete Jupyter Notebook implementing the full analytical workflow
 - Interactive visualizations
 - Analytical findings
 
-# 🚀 Replicating the Project
+## 🚀 Replicating the Project
 
-### Prerequisites
+#### Prerequisites
 
 - Python 3.x
 - Jupyter Notebook
@@ -281,7 +281,7 @@ Contains the complete Jupyter Notebook implementing the full analytical workflow
 - Folium
 - SciPy
 
-### Repository Setup
+#### Repository Setup
 
 Clone the repository:
 
@@ -289,13 +289,13 @@ Clone the repository:
 git clone https://github.com/yourusername/python-data-analysis-and-geospatial-crime-analytics.git
 ```
 
-### Data Preparation
+#### Data Preparation
 
 1. Download the Los Angeles Crime dataset from the **Datasets** directory.
 2. Place the CSV file in your working directory.
 3. Open `Outputs/Crimes in Los Angeles.ipynb`.
 
-### Run the Analysis
+#### Run the Analysis
 
 Execute the notebook sequentially to perform:
 
@@ -306,7 +306,7 @@ Execute the notebook sequentially to perform:
 - Geospatial analysis
 - Interactive visualization
 
-### Review the Results
+#### Review the Results
 
 The notebook produces:
 
@@ -318,7 +318,7 @@ The notebook produces:
 - Visual dashboards
 - Analytical insights
 
-# 📬 Contact Me
+## 📬 Contact Me
 
 For questions or collaboration, feel free to reach out.
 
